@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão-9</title>
+</head>
+<body>
+    <script>
+        //9 - Escreva um programa para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
+        let idade = parseInt(prompt("Insira o ano em que voce nasceu: "))
+
+        let ano = parseInt(prompt("Insira o ano em que estamos: "))
+
+        let voto = ano - idade
+
+        if( voto < 16){
+            alert("VOCE NÃO PODE VOTAR")
+        }else{
+            alert("VOCE PODE VOTAR")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão-4</title>
+</head>
+<body>
+    <script>
+        // 4. Faça um programa que leia dois valores informados pelo usuário e exiba uma das três mensagens a seguir: ‘Números iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+
+        let num1 = parseInt(prompt("Insira o primeiro número:"))
+        let num2 = parseInt(prompt("Insira o segundo número:"))
+
+        if (num1 == num2) {
+            alert("Números iguais")
+        } else if ( num1 > num2 ) {
+            alert("Primeiro é maior " + num1)
+        } else if (num2 > num1) {
+            alert("Segundo maior " + num2)
+        }
+    </script>
+</body>
+</html>

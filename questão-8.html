@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questão-8</title>
+</head>
+<body>
+    <script>
+        //8. Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+
+        let num1 = parseInt(prompt("Insira sua nota: "))
+        let num2 = parseInt(prompt("Insira sua nota: "))
+        let num3 = parseInt(prompt("Insira sua nota: "))
+        let num4 = parseInt(prompt("Insira sua nota: "))
+
+        let media = (num1 + num2 + num3 + num4) / 4
+
+        if( num1 > 10 && num1 < 0){
+            document.write("Insira uma nota valida!")
+        }else if(media > 5){
+            document.write("Você passou no teste")
+        }else{
+            document.write("tente novamente")
+        }
+    </script>
+    
+</body>
+</html>
